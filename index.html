@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio - Valery Botello</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="estilo/style.css">
+</head>
+<body>
+  <!-- Navegación -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo">Valery Botello</div>
+      <div class="nav-links">
+        <a href="#hero">Inicio</a>
+        <a href="#about">Sobre mí</a>
+        <a href="#skills">Tecnologías</a>
+        <a href="#projects">Proyectos</a>
+      </div>
+      <div class="mobile-menu-toggle">☰</div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero">
+    <div class="hero-background">
+      <div class="floating-particles"></div>
+    </div>
+      <div class="hero-dim-overlay" aria-hidden="true"></div>
+    <div class="floating-shapes">
+      <div class="shape shape-1"></div>
+      <div class="shape shape-2"></div>
+      <div class="shape shape-3"></div>
+      <div class="shape shape-4"></div>
+      <div class="shape shape-5"></div>
+    </div>
+
+    <div class="hero-content">
+      <div class="hero-image-container">
+        <div class="hero-image-wrapper">
+          <img src="img/valery.png" alt="Valery Botello" class="hero-image">
+          <div class="image-glow"></div>
+        </div>
+      </div>
+      
+      <h1 class="hero-title">
+        Hola, soy <span class="highlight">Valery Botello</span>
+      </h1>
+      <h2 class="hero-subtitle typing-text"></h2>
+      <p class="hero-description">
+        ✨ Creando experiencias digitales únicas con código y creatividad ✨
+      </p>
+      
+      <button id="scroll-btn" class="scroll-btn">
+        <span>Conoce mi trabajo</span>
+        <div class="btn-icon">↓</div>
+      </button>
+    </div>
+  </section>
+
+  <!-- Sobre mí -->
+        <section id="about" class="section-padding">
+          <div class="card fade-in">
+            <div class="card-content">
+              <div class="about-container">
+                <div class="about-image">
+                  <img src="img/valery.png" alt="Valery Botello" class="profile-img">
+                </div>
+                
+                <div class="about-content">
+                  <h2 class="section-title">💫 Sobre mí 💫</h2>
+                  <p class="about-paragraph">
+                    🌸 Soy estudiante de programación con gran interés en el desarrollo web y la creación 
+                      de interfaces modernas. Me apasiona el frontend porque me permite transformar ideas 
+                      en experiencias visuales llamativas y fáciles de usar.
+                  </p>
+                  <p class="about-paragraph">
+                  💻 Actualmente continúo aprendiendo nuevas tecnologías para fortalecer mis habilidades 
+                      y convertirme en una desarrolladora integral. Cada proyecto es una oportunidad para 
+                      crecer y crear algo hermoso.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+
+          <div class="about-stats">
+            <div class="stat-item">
+              <div class="stat-number" data-target="15">0</div>
+              <div class="stat-label">Proyectos</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number" data-target="9">0</div>
+              <div class="stat-label">Tecnologías</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number" data-target="100">0</div>
+              <div class="stat-label">% Dedicación</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tecnologías -->
+  <section id="skills" class="section-padding">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">
+          <span class="title-decoration">🚀</span>
+          Tecnologías
+          <span class="title-decoration">🚀</span>
+        </h2>
+        <div class="section-line"></div>
+        <p class="section-subtitle">Las herramientas que domino para crear experiencias increíbles</p>
+      </div>
+
+      <div class="tech-container">
+        <div class="tech-category">
+          <h3 class="category-title">Frontend</h3>
+          <div class="tech-grid">
+            <div class="tech-item" data-tech="HTML">
+              <div class="tech-icon">🌐</div>
+              <div class="tech-name">HTML</div>
+              <div class="tech-level">
+                <div class="level-bar" data-level="90"></div>
+              </div>
+            </div>
+            
+            <div class="tech-item" data-tech="CSS">
+              <div class="tech-icon">🎨</div>
+              <div class="tech-name">CSS</div>
+              <div class="tech-level">
+                <div class="level-bar" data-level="85"></div>
+              </div>
+            </div>
+            
+            <div class="tech-item" data-tech="JavaScript">
+              <div class="tech-icon">⚡</div>
+              <div class="tech-name">JavaScript</div>
+              <div class="tech-level">
+                <div class="level-bar" data-level="80"></div>
+              </div>
+            </div>
+            
+            <div class="tech-item" data-tech="Bootstrap">
+              <div class="tech-icon">📱</div>
+              <div class="tech-name">Bootstrap</div>
+              <div class="tech-level">
+                <div class="level-bar" data-level="75"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tech-category">
+          <h3 class="category-title">Backend</h3>
+          <div class="tech-grid">
+            <div class="tech-item" data-tech="Java">
+              <div class="tech-icon">☕</div>
+              <div class="tech-name">Java</div>
+              <div class="tech-level">
+                <div class="level-bar" data-level="85"></div>
+              </div>
+            </div>
+            
+            <div class="tech-item" data-tech="PHP">
+              <div class="tech-icon">🐘</div>
+              <div class="tech-name">PHP</div>
+              <div class="tech-level">
+                <div class="level-bar" data-level="70"></div>
+              </div>
+            </div>
+            
+            <div class="tech-item" data-tech="C++">
+              <div class="tech-icon">⚙️</div>
+              <div class="tech-name">C++</div>
+              <div class="tech-level">
+                <div class="level-bar" data-level="75"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tech-category">
+          <h3 class="category-title">Bases de Datos</h3>
+          <div class="tech-grid">
+            <div class="tech-item" data-tech="MySQL">
+              <div class="tech-icon">🗄️</div>
+              <div class="tech-name">MySQL</div>
+              <div class="tech-level">
+                <div class="level-bar" data-level="80"></div>
+              </div>
+            </div>
+            
+            <div class="tech-item" data-tech="SQL Server">
+              <div class="tech-icon">💾</div>
+              <div class="tech-name">SQL Server</div>
+              <div class="tech-level">
+                <div class="level-bar" data-level="75"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Proyectos -->
+  <section id="projects" class="section-padding">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">
+          <span class="title-decoration">💎</span>
+          Mis Proyectos
+          <span class="title-decoration">💎</span>
+        </h2>
+        <div class="section-line"></div>
+        <p class="section-subtitle">Algunos trabajos que he realizado con amor y dedicación</p>
+      </div>
+
+      <div class="projects-grid">
+        <div class="project-card" data-project="1">
+          <div class="project-image">
+            <img src="img/proyecto1.jpg" alt="Gestor de Productos">
+            <div class="project-overlay">
+              <div class="project-links">
+                <a href="https://valery1804.github.io/juego/" class="project-link" target="_blank">
+                  <span>👁️</span>
+                  Ver Demo
+                </a>
+                 <a href="https://valery1804.github.io/juego/" class="project-link" target="_blank">
+                  <span>💻</span>
+                  Código
+                </a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="project-content">
+            <div class="project-header">
+              <h3 class="project-title">Juego Educativo</h3>
+              <div class="project-status">✨ Completo</div>
+            </div>
+            
+            <p class="project-description">
+              Aplicación desarrollada en Java Script con HTML y CSS para el aprendizaje. 
+              Incluye interfaz gráfica intuitiva y funcionalidad de carga de imágenes 
+              para una experiencia completa de gestión.
+            </p>
+            
+            <div class="project-tech">
+              <span class="tech-tag">Java</span>
+              <span class="tech-tag">MySQL</span>
+              <span class="tech-tag">Swing</span>
+              <span class="tech-tag">CRUD</span>
+            </div>
+            
+            <div class="project-stats">
+              <div class="stat">
+                <span class="stat-icon">⏱️</span>
+                <span class="stat-text">2 semanas</span>
+              </div>
+              <div class="stat">
+                <span class="stat-icon">🎯</span>
+                <span class="stat-text">Desktop App</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card" data-project="2">
+          <div class="project-image">
+            <img src="img/proyecto2.jpg" alt="Portafolio Web">
+            <div class="project-overlay">
+              <div class="project-links">
+                <a href="#" class="project-link" target="_blank">
+                  <span>👁️</span>
+                  Ver Demo
+                </a>
+                <a href="https://github.com/valery-botello/portafolio" class="project-link" target="_blank">
+                  <span>💻</span>
+                  Código
+                </a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="project-content">
+            <div class="project-header">
+              <h3 class="project-title">Portafolio Personal</h3>
+              <div class="project-status">🚀 En línea</div>
+            </div>
+            
+            <p class="project-description">
+              Este mismo portafolio web que estás viendo, creado con HTML5, CSS3 y 
+              JavaScript vanilla. Diseñado con animaciones suaves y un enfoque 
+              moderno para mostrar mi perfil profesional.
+            </p>
+            
+            <div class="project-tech">
+              <span class="tech-tag">HTML5</span>
+              <span class="tech-tag">CSS3</span>
+              <span class="tech-tag">JavaScript</span>
+              <span class="tech-tag">Responsive</span>
+            </div>
+            
+            <div class="project-stats">
+              <div class="stat">
+                <span class="stat-icon">⏱️</span>
+                <span class="stat-text">1 semana</span>
+              </div>
+              <div class="stat">
+                <span class="stat-icon">🎯</span>
+                <span class="stat-text">Web App</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECCIÓN DE CONTACTO -->
+<section id="contact" class="section-padding">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title">
+        <span class="title-decoration">📧</span>
+        Contacto
+        <span class="title-decoration">📧</span>
+      </h2>
+      <div class="section-line"></div>
+      <p class="section-subtitle">¡Hablemos sobre tu próximo proyecto!</p>
+    </div>
+
+    <div class="contact-content">
+      <div class="contact-info">
+        <div class="contact-card">
+          <div class="contact-icon">📧</div>
+          <h3 class="contact-title">Email</h3>
+          <p class="contact-text">¿Tienes una idea increíble? ¡Escríbeme!</p>
+          <a href="mailto:valery@gmail.com" class="contact-link">valery@gmail.com</a>
+        </div>
+
+        <div class="contact-card">
+          <div class="contact-icon">💼</div>
+          <h3 class="contact-title">LinkedIn</h3>
+          <p class="contact-text">Conectemos profesionalmente</p>
+          <a href="https://linkedin.com/in/valerybotello" target="_blank" class="contact-link">Ver perfil</a>
+        </div>
+
+        <div class="contact-card">
+          <div class="contact-icon">💻</div>
+          <h3 class="contact-title">GitHub</h3>
+          <p class="contact-text">Revisa mis proyectos y código</p>
+          <a href="https://valery1804.github.io/juego/" target="_blank" class="contact-link">Ver repositorios</a>
+        </div>
+      </div>
+
+      <div class="contact-form-container">
+        <form class="contact-form" id="contactForm">
+          <div class="form-group">
+            <label for="name" class="form-label">Nombre</label>
+            <input type="text" id="name" name="name" class="form-input" required>
+          </div>
+
+          <div class="form-group">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" id="email" name="email" class="form-input" required>
+          </div>
+
+          <div class="form-group">
+            <label for="subject" class="form-label">Asunto</label>
+            <input type="text" id="subject" name="subject" class="form-input" required>
+          </div>
+
+          <div class="form-group">
+            <label for="message" class="form-label">Mensaje</label>
+            <textarea id="message" name="message" rows="5" class="form-textarea" required></textarea>
+          </div>
+
+          <button type="submit" class="form-submit">
+            <span>Enviar mensaje</span>
+            <div class="btn-icon">✉️</div>
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-text">
+        <p>CONTACTO</p>
+        <p>© 2025 - Hecho con 💖 y mucho ☕ por Valery Botello</p>
+      </div>
+      <div class="footer-social">
+        <a href="#" class="social-link">📧</a>
+        <a href="#" class="social-link">💼</a>
+        <a href="#" class="social-link">🐱</a>
+      </div>
+    </div>
+    
+    <div class="footer-decoration">
+      <div class="decoration-item">✨</div>
+      <div class="decoration-item">🌟</div>
+      <div class="decoration-item">💫</div>
+      <div class="decoration-item">⭐</div>
+    </div>
+  </footer>
+
+  <script src="script/java.js"></script>
+</body>
+</html>
